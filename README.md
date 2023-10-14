@@ -1,32 +1,29 @@
-# e6156-f23-template
+# E6156 - Topic in SW Engineering: Cloud Computing docker-flask-sample
 
-Simple starter template for E6156 projects for fall 2023.
+## Overview
 
-# Directory Structure
+This is a very, very simple example of how to
+1. Build and run a simple Flask web application
+2. Package with Docker
+3. Push to Docker Hub
+4. Pull onto an EC2 instance
+5. Execute on EC2
 
-## Top Level Files
+## Foundation
 
-- ```.gitignore]: ```[.gitignore](https://www.pluralsight.com/guides/how-to-use-gitignore-file) is important to
-avoid putting unnecessary and insecure information into GitHub.
+I followed a simple [online tutorial.](https://docs.docker.com/language/python/build-images/)
 
+Note: You must have installed Docker on your laptop and your EC2 instances.
 
-- ```LICENSE```: Choosing the 
-[best license](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-for a project may be important and require careful thought.
-
-## Python Virtual Environment
-
-- Using a [python virtual environment] is a best practice.
-
-
-- This projects virtual environment is in ```venv```.
-
-
-- The ```.gitignore``` file is the default for python from GitHub and prevents pushing the virtual environment into
-the repo.
-
-
-- ```main.py``` is the python application launched to start the web service.
-There is more details in the comments in the file.
+There are some modifications and extensions, specifically:
+1. I do not use "Flask run ... "
+   1. I modified app.py so that you can run using python command.
+   2. The CMD entry in the Dockerfile is different.
+2. You must ensure that the Flask application sets host 0.0.0.0. The app.run() in app.py handles this requirement.
+3. Please create a new environment for your project that includes the mimimum packages you require.
+4. Make sure you update requirements.txt when you add packages (you can use pip freeze > requirements.txt)
+5. I added a file scripts.sh that contains commands I ran. You will have to modify.
+6. Make sure you have enabled access to port 5000 for your EC2 security group.
+7. Make sure you try to connect to the public IP address/DNS for the EC2 instance.
 
 
