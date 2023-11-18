@@ -6,7 +6,7 @@ import json
 def get_data_service():
 
     config = {
-        "data_directory": "/Users/donaldferguson/Dropbox/0-Examples/e6156-f23-template/data",
+        "data_directory": "/Users/michelle/Desktop/Cloud Computing/Cloud7Booking/data",
         "data_file": "students.json"
     }
 
