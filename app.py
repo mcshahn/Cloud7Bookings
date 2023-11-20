@@ -1,16 +1,3 @@
-# from flask import Flask
-# app = Flask(__name__)
-
-
-# @app.route('/')
-# def hello_world():
-#     return 'docker Test Worked for AWS (Cloud 7) (it better work...))'
-
-
-# if __name__ == '__main__':
-#     app.run(host="0.0.0.0", port=5000)
-
-
 #
 # FastAPI is a framework and library for implementing REST web services in Python.
 # https://fastapi.tiangolo.com/
@@ -91,10 +78,10 @@ async def get_bookings():
    
     """
     result = bookings_resource.get_bookings()
-    print("in /bookings", result)
+    # print("in /bookings", result)
     return result
-@app.get("/bookings/{booking_id}", response_model=Union[BookingRspModel, None])
-async def get_booking(booking_id: str):
+@app.get("/bookings/booking_id/{booking_id}", response_model=Union[BookingRspModel, None])
+async def get_booking_by_booking_id(booking_id: str):
     """
     Return a booking based on booking_id.
 
@@ -102,8 +89,8 @@ async def get_booking(booking_id: str):
     """
     result = None
     
-    result = bookings_resource.get_bookings(booking_id)
-    print(result)
+    result = bookings_resource.get_bookings_by_booking_id(booking_id)
+    # print(result)
     if len(result) == 1:
         result = result[0]
     else:
@@ -111,15 +98,17 @@ async def get_booking(booking_id: str):
 
     return result
 
-@app.get("/students/{uni}", response_model=Union[StudentRspModel, None])
-async def get_student(uni: str):
+@app.get("/bookings/space_id/{space_id}", response_model=Union[BookingRspModel, None])
+async def get_booking_by_space_id(space_id: str):
     """
-    Return a student based on UNI.
+    Return a booking based on booking_id.
 
-    - **uni**: student's UNI
+    - **booking_id**: booking's id
     """
     result = None
-    result = students_resource.get_students(uni)
+    
+    result = bookings_resource.get_bookings_by_space_id(space_id)
+    # print(result)
     if len(result) == 1:
         result = result[0]
     else:
@@ -127,74 +116,22 @@ async def get_student(uni: str):
 
     return result
 
+@app.post("/bookings/")
+async def create_item(item: BookingRspModel):
+    bookings_resource.create_booking(item)
+    return item
 
-# @app.get("/schools", response_model=List[SchoolRspModel])
-# async def get_schools():
-#     """
-#     Return a list of schools.
-#     """
-#     result = schools_resource.get_schools()
-#     return result
+@app.put("/bookings/")
+async def update_item(item: BookingRspModel):
+    bookings_resource.update_booking(item)
+    return item
 
-
-# @app.get("/schools/{school_code}/students", response_model=List[StudentRspModel])
-# async def get_schools_students(school_code, uni=None, last_name=None):
-#     """
-#     Return a list of schools.
-#     """
-#     result = schools_resource.get_schools_students(school_code, uni, last_name)
-#     return result
+@app.delete("/bookings/")
+async def delete_item(item: BookingRspModel):
+    bookings_resource.delete_booking(item)
+    return item
 
 
-
-
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=8011)
-
-
-# from fastapi import FastAPI
-# from fastapi.responses import JSONResponse, HTMLResponse
-# from pydantic import BaseModel
-# import asyncio
-# import uvicorn
-# from resources.students.students_resource import StudentsResource
-
-# app = FastAPI()
-
-
-# # example_instance = StudentsResource(config)
-
-
-# @app.get("/")
-# async def home_page():
-#     home_page = \
-#         """
-#         <!DOCTYPE html>
-#         <html lang="en">
-#         <head>
-#             <meta charset="UTF-8">
-#             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#             <title>Simple Composite Service Example</title>
-#         </head>
-#         <body>
-        
-#             <header>
-#                 <h1>Welcome to Simple Composite Example</h1>
-#             </header>
-        
-#             <section>
-#                 <h2>Usage</h2>
-#                 <p>Please go to <a href="/docs">the OpenAPI docs page for this app.</a>
-#             </section>
-        
-#             <footer>
-#                 <p>&copy; 2023 Donald Ferguson. All rights reserved.</p>
-#             </footer>
-        
-#         </body>
-#         </html>
-#         """
-#     return HTMLResponse(home_page)
 
 
 # @app.get("/get_item")

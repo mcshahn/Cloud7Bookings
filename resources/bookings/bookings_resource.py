@@ -34,9 +34,9 @@ class BookingsResource(BaseResource):
         rsp = BookingRspModel(**b, links=links)
         return rsp
 
-    def get_bookings(self, booking_id: str = None) -> List[BookingRspModel]:
+    def get_bookings(self) -> List[BookingRspModel]:
 
-        result = self.data_service.get_bookings(booking_id)
+        result = self.data_service.get_bookings()
         final_result = []
 
         for b in result:
@@ -44,4 +44,40 @@ class BookingsResource(BaseResource):
             final_result.append(m)
 
         return final_result
+
+
+    def get_bookings_by_booking_id(self, booking_id: str = None) -> List[BookingRspModel]:
+
+        result = self.data_service.get_bookings_by_booking_id(booking_id)
+        final_result = []
+
+        for b in result:
+            m = self._generate_links(b)
+            final_result.append(m)
+
+        return final_result
+    
+    def get_bookings_by_space_id(self, space_id: str = None) -> List[BookingRspModel]:
+
+        result = self.data_service.get_bookings_by_space_id(space_id)
+        final_result = []
+
+        for b in result:
+            m = self._generate_links(b)
+            final_result.append(m)
+
+        return final_result
+
+
+    def create_booking(self, item):
+        result = self.data_service.create_booking(item)
+        return result
+    
+    def update_booking(self, item):
+        result = self.data_service.update_booking(item)
+        return result
+    
+    def delete_booking(self, item):
+        result = self.data_service.delete_booking(item)
+        return result
 
