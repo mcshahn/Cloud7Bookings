@@ -1,0 +1,702 @@
+[
+    {
+        "uni": "kxl2398",
+        "first_name": "Iolande",
+        "last_name": "Birkin",
+        "email": "kxl2398@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "prf1287",
+        "first_name": "Reynolds",
+        "last_name": "Waddam",
+        "email": "prf1287@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "qlh0400",
+        "first_name": "Doy",
+        "last_name": "Lendrem",
+        "email": "qlh0400@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "sdf7297",
+        "first_name": "Marigold",
+        "last_name": "Cosstick",
+        "email": "sdf7297@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "pdg6885",
+        "first_name": "Bailie",
+        "last_name": "Camilleri",
+        "email": "pdg6885@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "eev4774",
+        "first_name": "Inglebert",
+        "last_name": "Mirfield",
+        "email": "eev4774@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "uem1820",
+        "first_name": "Courtenay",
+        "last_name": "Melbourn",
+        "email": "uem1820@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "zwf6508",
+        "first_name": "Liz",
+        "last_name": "Manuele",
+        "email": "zwf6508@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "mah5060",
+        "first_name": "Elka",
+        "last_name": "Lantiffe",
+        "email": "mah5060@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "vhk7357",
+        "first_name": "Maryanne",
+        "last_name": "Wilstead",
+        "email": "vhk7357@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "kmz9445",
+        "first_name": "Elka",
+        "last_name": "Korneev",
+        "email": "kmz9445@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "mpp7476",
+        "first_name": "Hakim",
+        "last_name": "Durling",
+        "email": "mpp7476@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "dig2300",
+        "first_name": "Court",
+        "last_name": "Stubbin",
+        "email": "dig2300@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "vff7699",
+        "first_name": "Wilona",
+        "last_name": "Entwisle",
+        "email": "vff7699@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "hjn2436",
+        "first_name": "Gardner",
+        "last_name": "McWhirter",
+        "email": "hjn2436@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "lkw1626",
+        "first_name": "Bellina",
+        "last_name": "Holbie",
+        "email": "lkw1626@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "wsl8746",
+        "first_name": "Marybelle",
+        "last_name": "Orpen",
+        "email": "wsl8746@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "gpo7795",
+        "first_name": "Nealy",
+        "last_name": "Ludy",
+        "email": "gpo7795@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "gol6282",
+        "first_name": "Adan",
+        "last_name": "Cockram",
+        "email": "gol6282@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "tzv5204",
+        "first_name": "Edouard",
+        "last_name": "Crookshanks",
+        "email": "tzv5204@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "ptc5384",
+        "first_name": "Ichabod",
+        "last_name": "Chislett",
+        "email": "ptc5384@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "oft0710",
+        "first_name": "Ella",
+        "last_name": "Leiden",
+        "email": "oft0710@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "jqm3656",
+        "first_name": "Brewer",
+        "last_name": "Goodlatt",
+        "email": "jqm3656@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "luo8772",
+        "first_name": "Rodrique",
+        "last_name": "Bedenham",
+        "email": "luo8772@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "ssn3803",
+        "first_name": "Vernon",
+        "last_name": "Lamke",
+        "email": "ssn3803@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "vdh5410",
+        "first_name": "Thomasa",
+        "last_name": "Girardin",
+        "email": "vdh5410@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "kgw6176",
+        "first_name": "Bryn",
+        "last_name": "Brotherick",
+        "email": "kgw6176@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "rxp6654",
+        "first_name": "Cara",
+        "last_name": "Willmett",
+        "email": "rxp6654@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "bsi6677",
+        "first_name": "Jinny",
+        "last_name": "Eble",
+        "email": "bsi6677@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "aeh3032",
+        "first_name": "Joscelin",
+        "last_name": "Seamans",
+        "email": "aeh3032@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "pdm7300",
+        "first_name": "Chelsey",
+        "last_name": "Broadfield",
+        "email": "pdm7300@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "ljw1452",
+        "first_name": "Dru",
+        "last_name": "Scamerdine",
+        "email": "ljw1452@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "leb3834",
+        "first_name": "Jarred",
+        "last_name": "Dobey",
+        "email": "leb3834@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "gnq5918",
+        "first_name": "Aurelie",
+        "last_name": "Tuxwell",
+        "email": "gnq5918@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "zik5143",
+        "first_name": "Ellis",
+        "last_name": "Gabits",
+        "email": "zik5143@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "thy1702",
+        "first_name": "Garrot",
+        "last_name": "Cridlin",
+        "email": "thy1702@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "tod8745",
+        "first_name": "Masha",
+        "last_name": "Haney",
+        "email": "tod8745@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "pgf0188",
+        "first_name": "Alphard",
+        "last_name": "Wanell",
+        "email": "pgf0188@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "jsl0657",
+        "first_name": "Vivyanne",
+        "last_name": "Barajaz",
+        "email": "jsl0657@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "xpu4235",
+        "first_name": "Pierette",
+        "last_name": "Applegate",
+        "email": "xpu4235@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "spn4955",
+        "first_name": "Odelia",
+        "last_name": "Ivanishin",
+        "email": "spn4955@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "tgu7954",
+        "first_name": "Natale",
+        "last_name": "Rivard",
+        "email": "tgu7954@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "gso6965",
+        "first_name": "Lincoln",
+        "last_name": "Skells",
+        "email": "gso6965@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "rfh9579",
+        "first_name": "Olenolin",
+        "last_name": "MacGilrewy",
+        "email": "rfh9579@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "ekw4161",
+        "first_name": "Cymbre",
+        "last_name": "Ben",
+        "email": "ekw4161@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "ief3180",
+        "first_name": "Willy",
+        "last_name": "Kirman",
+        "email": "ief3180@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "mgv5465",
+        "first_name": "Elmira",
+        "last_name": "MacCleod",
+        "email": "mgv5465@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "goa7580",
+        "first_name": "Ed",
+        "last_name": "Linford",
+        "email": "goa7580@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "pdy7653",
+        "first_name": "Tiffany",
+        "last_name": "Styant",
+        "email": "pdy7653@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "oxg1651",
+        "first_name": "Jenilee",
+        "last_name": "Blencoe",
+        "email": "oxg1651@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "jkp8443",
+        "first_name": "Philipa",
+        "last_name": "Lynnitt",
+        "email": "jkp8443@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "nmp9038",
+        "first_name": "Pepe",
+        "last_name": "Benadette",
+        "email": "nmp9038@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "lmw3096",
+        "first_name": "Terra",
+        "last_name": "Poff",
+        "email": "lmw3096@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "bmq8816",
+        "first_name": "Colin",
+        "last_name": "Coger",
+        "email": "bmq8816@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "bqn9089",
+        "first_name": "Robbyn",
+        "last_name": "Vasilik",
+        "email": "bqn9089@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "cdz7762",
+        "first_name": "Lettie",
+        "last_name": "Saffell",
+        "email": "cdz7762@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "ews5302",
+        "first_name": "Etty",
+        "last_name": "Harmson",
+        "email": "ews5302@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "gak7426",
+        "first_name": "Abby",
+        "last_name": "Henfre",
+        "email": "gak7426@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "bjl1894",
+        "first_name": "Fawnia",
+        "last_name": "Shillito",
+        "email": "bjl1894@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "ggb3781",
+        "first_name": "James",
+        "last_name": "Rockwill",
+        "email": "ggb3781@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "ywp7128",
+        "first_name": "Julienne",
+        "last_name": "Goldspink",
+        "email": "ywp7128@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "llr0366",
+        "first_name": "Dave",
+        "last_name": "Runge",
+        "email": "llr0366@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "tbq9559",
+        "first_name": "Billye",
+        "last_name": "Drew-Clifton",
+        "email": "tbq9559@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "jzm5134",
+        "first_name": "Audi",
+        "last_name": "Akehurst",
+        "email": "jzm5134@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "dem6850",
+        "first_name": "Cathi",
+        "last_name": "Menghi",
+        "email": "dem6850@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "euu4199",
+        "first_name": "Willie",
+        "last_name": "Gonoude",
+        "email": "euu4199@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "oss3225",
+        "first_name": "Meyer",
+        "last_name": "Flahy",
+        "email": "oss3225@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "ils7503",
+        "first_name": "Camel",
+        "last_name": "Lunnon",
+        "email": "ils7503@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "snb8522",
+        "first_name": "Frans",
+        "last_name": "Clell",
+        "email": "snb8522@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "fjp3241",
+        "first_name": "Gabbie",
+        "last_name": "Puttan",
+        "email": "fjp3241@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "oqr4360",
+        "first_name": "Nita",
+        "last_name": "Precious",
+        "email": "oqr4360@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "abe0141",
+        "first_name": "Court",
+        "last_name": "Nicolls",
+        "email": "abe0141@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "epm4680",
+        "first_name": "Fanni",
+        "last_name": "Heard",
+        "email": "epm4680@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "agc4842",
+        "first_name": "Glyn",
+        "last_name": "Geratt",
+        "email": "agc4842@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "upz1595",
+        "first_name": "Starlene",
+        "last_name": "Barnshaw",
+        "email": "upz1595@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "tro5967",
+        "first_name": "Feodor",
+        "last_name": "Kiehl",
+        "email": "tro5967@columbia.edu",
+        "school_code": "CC"
+    },
+    {
+        "uni": "ntr1070",
+        "first_name": "Edmon",
+        "last_name": "Leverett",
+        "email": "ntr1070@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "rpj3383",
+        "first_name": "Bel",
+        "last_name": "Jancso",
+        "email": "rpj3383@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "bqo8591",
+        "first_name": "Kendell",
+        "last_name": "Arne",
+        "email": "bqo8591@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "lrd5133",
+        "first_name": "Sibylle",
+        "last_name": "Lochrie",
+        "email": "lrd5133@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "xyy1036",
+        "first_name": "Celestina",
+        "last_name": "Clinkard",
+        "email": "xyy1036@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "pus2814",
+        "first_name": "Brynn",
+        "last_name": "Kinnoch",
+        "email": "pus2814@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "gyh1367",
+        "first_name": "Vinny",
+        "last_name": "Meeny",
+        "email": "gyh1367@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "wdt3564",
+        "first_name": "Othilia",
+        "last_name": "Redsull",
+        "email": "wdt3564@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "bra7687",
+        "first_name": "Adorne",
+        "last_name": "Convery",
+        "email": "bra7687@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "opn8874",
+        "first_name": "Coop",
+        "last_name": "Sargeaunt",
+        "email": "opn8874@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "eqx0203",
+        "first_name": "Dru",
+        "last_name": "Fishby",
+        "email": "eqx0203@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "jiu5759",
+        "first_name": "Elora",
+        "last_name": "Begin",
+        "email": "jiu5759@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "oyh0263",
+        "first_name": "Jenilee",
+        "last_name": "Ponte",
+        "email": "oyh0263@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "enl3396",
+        "first_name": "Benjy",
+        "last_name": "Cornils",
+        "email": "enl3396@columbia.edu",
+        "school_code": "GS"
+    },
+    {
+        "uni": "jga3334",
+        "first_name": "Verge",
+        "last_name": "Steddall",
+        "email": "jga3334@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "xms2667",
+        "first_name": "Federico",
+        "last_name": "Gowler",
+        "email": "xms2667@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "vwu1991",
+        "first_name": "Waldemar",
+        "last_name": "Brucker",
+        "email": "vwu1991@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "pcj2223",
+        "first_name": "Davidson",
+        "last_name": "Ledstone",
+        "email": "pcj2223@columbia.edu",
+        "school_code": "SEAS"
+    },
+    {
+        "uni": "mte2895",
+        "first_name": "Hedwiga",
+        "last_name": "Emerine",
+        "email": "mte2895@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "hod2504",
+        "first_name": "Dosi",
+        "last_name": "Froude",
+        "email": "hod2504@columbia.edu",
+        "school_code": "LAW"
+    },
+    {
+        "uni": "tjj4563",
+        "first_name": "Brinn",
+        "last_name": "Osmint",
+        "email": "tjj4563@columbia.edu",
+        "school_code": "GSAS"
+    },
+    {
+        "uni": "zbp4480",
+        "first_name": "Allina",
+        "last_name": "Stollery",
+        "email": "zbp4480@columbia.edu",
+        "school_code": "CUMC"
+    },
+    {
+        "uni": "vkk3616",
+        "first_name": "Dido",
+        "last_name": "Cucuzza",
+        "email": "vkk3616@columbia.edu",
+        "school_code": "BN"
+    },
+    {
+        "uni": "pzl0977",
+        "first_name": "Evaleen",
+        "last_name": "Jeram",
+        "email": "pzl0977@columbia.edu",
+        "school_code": "LAW"
+    }
+]
