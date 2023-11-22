@@ -116,12 +116,12 @@ async def get_booking_by_space_id(space_id: str):
 
     return result
 
-@app.post("/bookings/")
+@app.post("/bookings/") #append/create a new one; if something exists-->append
 async def create_item(item: BookingRspModel):
     bookings_resource.create_booking(item)
     return item
 
-@app.put("/bookings/")
+@app.put("/bookings/") #update and create(but not append,just return  ) new one if instance doesn't exist
 async def update_item(item: BookingRspModel):
     bookings_resource.update_booking(item)
     return item

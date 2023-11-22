@@ -103,9 +103,8 @@ class BookingDataService(BaseDataService):
         for b in self.bookings:
             if new_booking["booking_id"] == b["booking_id"]:
                 self.bookings.remove(b)
+                self.bookings.append(new_booking)
                 break
-        
-        self.bookings.append(new_booking)
         return new_booking
 
     def delete_booking(self, booking):
