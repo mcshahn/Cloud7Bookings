@@ -37,7 +37,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 def get_data_service():
 
     config = {
-        "data_directory": "/Users/michelle/Desktop/Cloud Computing/Cloud7Booking/data",
+        "data_directory": "./data",
         "data_file": "bookings.json"
     }
 
@@ -154,4 +154,4 @@ async def delete_item(item: BookingRspModel):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000, log_level="info")
+    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
