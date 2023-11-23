@@ -13,14 +13,13 @@ from typing import List, Union
 import uvicorn
 
 
-from resources.students.students_resource import StudentsResource
-from resources.students.students_data_service import StudentDataService
-from resources.students.student_models import StudentModel, StudentRspModel
-from resources.schools.school_models import SchoolRspModel, SchoolModel
-from resources.schools.schools_resource import SchoolsResource
 from resources.bookings.booking_models import BookingRspModel, BookingModel
 from resources.bookings.bookings_data_service import BookingDataService
 from resources.bookings.bookings_resource import BookingsResource
+
+import boto3
+from events.send_message import publish_message_to_sns
+
 
 
 
@@ -119,6 +118,13 @@ async def get_booking_by_space_id(space_id: str):
 @app.post("/bookings/") #append/create a new one; if something exists-->append
 async def create_item(item: BookingRspModel):
     bookings_resource.create_booking(item)
+    topic_arn = 'arn:aws:sns:us-east-2:985087256160:bookings_changd'
+    
+    # Specify the message you want to publish
+    # message = 'Testing from post request'
+
+    # Publish the message to the SNS topic
+    publish_message_to_sns(topic_arn, str(item))
     return item
 
 @app.put("/bookings/") #update and create(but not append,just return  ) new one if instance doesn't exist
@@ -154,4 +160,8 @@ async def delete_item(item: BookingRspModel):
 
 if __name__ == "__main__":
     import uvicorn
+    # session = boto3.Session(
+    #     aws_access_key_id=ACCESS_KEY,
+    #     aws_secret_access_key=SECRET_KEY,
+    #     )
     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
