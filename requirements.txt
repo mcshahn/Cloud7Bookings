@@ -12,3 +12,8 @@ uvicorn>=0.15.0,<0.16.0
 numpy
 mangum
 aiofiles
+boto3
+authlib
+itsdangerous
+starlette
+httpx
